@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es5",                                // Specify ECMAScript target version
+      "module": "commonjs",                           // Specify module code generation
+      "lib": ["es5", "dom"],                          // Specify library files to be included in the compilation
+      "strict": true,                                 // Enable all strict type-checking options
+      "noEmit": true,                                 // Do not emit outputs (important for type-checking only scenarios)
+      "esModuleInterop": true,                        // Enables emit interoperability between CommonJS and ES Modules
+      "skipLibCheck": true,                           // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true        // Disallow inconsistently-cased references to the same file
+    },
+    "include": [
+      "cypress/**/*.ts"                              // Path to your Cypress tests
+    ]
+  }
+  
